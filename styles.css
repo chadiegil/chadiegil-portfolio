@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.container {
+  width: 98%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo_profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.portfolio-link {
+  cursor: pointer;
+  color: aqua;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* navigation styles */
+
+nav {
+  width: 40%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid aqua;
+  color: aqua;
+}
+
+/* section */
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+main {
+  height: 500px;
+}
+
+h2 {
+  font-size: 60px;
+  color: white;
+}
+h3 {
+  color: white;
+  font-size: 35px;
+}
+
+main p {
+  width: 600px;
+  font-size: 30px;
+  word-wrap: break-word;
+  color: white;
+}
+
+.btn-hire-me {
+  padding: 10px;
+  color: white;
+  background-color: rgb(4, 230, 230);
+  outline: none;
+  border: none;
+}
+.btn-hire-me:hover {
+  background-color: rgb(18, 218, 218);
+  cursor: pointer;
+}
+
+.profile {
+  margin: 50px;
+}
+/* footer */
+
+footer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.social-media-links a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+.social-media-links a:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+/* services styles */
+.services ul li {
+  color: white;
+  font-size: 30px;
+}
+/* skills */
+.skills ul li {
+  color: white;
+  font-size: 30px;
+}
+
+/* contact */
+.form {
+  height: 300px;
+  width: 340px;
+  color: white;
+}
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+.form input {
+  width: 100%;
+}
+
+.form textarea {
+  width: 100%;
+}
+#send-email {
+  background-color: aqua;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+#send-email:hover {
+  background-color: rgb(18, 218, 218);
+}
+
+/* media queries */
